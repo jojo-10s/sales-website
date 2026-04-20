@@ -7,7 +7,7 @@ class SalesWebsite {
     constructor() {
         // DATA PROFIL - Ganti dengan data kamu!
         this.currentUser = {
-            name: "Syarifah Keisya Arzahra",
+            name: "Your Name",
             title: "Automotive Sales Specialist",
             company: "Premium Auto Dealership",
             phone: "+628123456789",
@@ -203,7 +203,7 @@ class SalesWebsite {
                             <!-- Placeholder untuk foto kamu -->
                             <div class="rounded-2xl w-full h-80 md:h-96 overflow-hidden shadow-xl">
                                 <img 
-                                    src="assets/images/photo_profile.jpeg" 
+                                    src="assets/images/photo_profile.jpg" 
                                     alt="${this.currentUser.name} - ${this.currentUser.title}"
                                     class="w-full h-full object-cover"
                                     loading="lazy"
